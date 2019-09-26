@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d80271b-7b4d-4b8e-9df8-fc114207ebfd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="615433235">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="3425" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="3425" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/LineDraw.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="27" column="60" lean-forward="true" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+              <folding>
+                <marker date="1569531553491" expanded="false" signature="6:78" ph="..." />
+                <marker date="1569531553491" expanded="true" signature="117:4470" ph="{...}" />
+                <marker date="1569531553491" expanded="true" signature="328:408" ph="{...}" />
+                <marker date="1569531553491" expanded="true" signature="478:1135" ph="{...}" />
+                <marker date="1569531553491" expanded="true" signature="1193:2739" ph="{...}" />
+                <marker date="1569531553491" expanded="true" signature="1240:1492" ph="{...}" />
+                <marker date="1569531553491" expanded="true" signature="1532:1630" ph="{...}" />
+                <marker date="1569531553491" expanded="true" signature="1732:2733" ph="{...}" />
+                <marker date="1569531553491" expanded="true" signature="2177:2723" ph="{...}" />
+                <marker date="1569531553491" expanded="true" signature="2569:2709" ph="{...}" />
+                <marker date="1569531553491" expanded="true" signature="2773:3586" ph="{...}" />
+                <marker date="1569531553491" expanded="true" signature="2963:3209" ph="{...}" />
+                <marker date="1569531553491" expanded="true" signature="3022:3199" ph="{...}" />
+                <marker date="1569531553491" expanded="true" signature="3259:3557" ph="{...}" />
+                <marker date="1569531553491" expanded="true" signature="3648:3723" ph="{...}" />
+                <marker date="1569531553491" expanded="true" signature="3780:4468" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Erase.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+              <folding>
+                <marker date="1569528560183" expanded="false" signature="6:78" ph="..." />
+                <marker date="1569528560183" expanded="true" signature="114:419" ph="{...}" />
+                <marker date="1569528560183" expanded="true" signature="186:199" ph="{...}" />
+                <marker date="1569528560183" expanded="true" signature="257:270" ph="{...}" />
+                <marker date="1569528560183" expanded="true" signature="294:417" ph="{...}" />
+                <marker date="1569528560183" expanded="true" signature="309:411" ph="/* if (LineDraw.toolType == &quot;eraser&quot;) ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ToolControl.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+              <folding>
+                <marker date="1569528580420" expanded="true" signature="6:113" ph="..." />
+                <marker date="1569528580420" expanded="true" signature="155:657" ph="{...}" />
+                <marker date="1569528580420" expanded="true" signature="227:248" ph="{...}" />
+                <marker date="1569528580420" expanded="true" signature="306:327" ph="{...}" />
+                <marker date="1569528580420" expanded="true" signature="351:655" ph="{...}" />
+                <marker date="1569528580420" expanded="true" signature="366:649" ph="/* if (gameObject.name == &quot;eraser&quot;) ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LineDraw.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Erase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ToolControl.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Erase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ToolControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LineDraw.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="996" />
+    <option name="y" value="88" />
+    <option name="width" value="645" />
+    <option name="height" value="525" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d80271b-7b4d-4b8e-9df8-fc114207ebfd" name="Default Changelist" comment="" />
+      <created>1569524555708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569524555708</updated>
+      <workItem from="1569524558719" duration="7588000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7588000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Erase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding>
+            <marker date="1569528560183" expanded="false" signature="6:78" ph="..." />
+            <marker date="1569528560183" expanded="true" signature="114:419" ph="{...}" />
+            <marker date="1569528560183" expanded="true" signature="186:199" ph="{...}" />
+            <marker date="1569528560183" expanded="true" signature="257:270" ph="{...}" />
+            <marker date="1569528560183" expanded="true" signature="294:417" ph="{...}" />
+            <marker date="1569528560183" expanded="true" signature="309:411" ph="/* if (LineDraw.toolType == &quot;eraser&quot;) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ToolControl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+          <folding>
+            <marker date="1569528580420" expanded="true" signature="6:113" ph="..." />
+            <marker date="1569528580420" expanded="true" signature="155:657" ph="{...}" />
+            <marker date="1569528580420" expanded="true" signature="227:248" ph="{...}" />
+            <marker date="1569528580420" expanded="true" signature="306:327" ph="{...}" />
+            <marker date="1569528580420" expanded="true" signature="351:655" ph="{...}" />
+            <marker date="1569528580420" expanded="true" signature="366:649" ph="/* if (gameObject.name == &quot;eraser&quot;) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LineDraw.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="60" lean-forward="true" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+          <folding>
+            <marker date="1569531553491" expanded="false" signature="6:78" ph="..." />
+            <marker date="1569531553491" expanded="true" signature="117:4470" ph="{...}" />
+            <marker date="1569531553491" expanded="true" signature="328:408" ph="{...}" />
+            <marker date="1569531553491" expanded="true" signature="478:1135" ph="{...}" />
+            <marker date="1569531553491" expanded="true" signature="1193:2739" ph="{...}" />
+            <marker date="1569531553491" expanded="true" signature="1240:1492" ph="{...}" />
+            <marker date="1569531553491" expanded="true" signature="1532:1630" ph="{...}" />
+            <marker date="1569531553491" expanded="true" signature="1732:2733" ph="{...}" />
+            <marker date="1569531553491" expanded="true" signature="2177:2723" ph="{...}" />
+            <marker date="1569531553491" expanded="true" signature="2569:2709" ph="{...}" />
+            <marker date="1569531553491" expanded="true" signature="2773:3586" ph="{...}" />
+            <marker date="1569531553491" expanded="true" signature="2963:3209" ph="{...}" />
+            <marker date="1569531553491" expanded="true" signature="3022:3199" ph="{...}" />
+            <marker date="1569531553491" expanded="true" signature="3259:3557" ph="{...}" />
+            <marker date="1569531553491" expanded="true" signature="3648:3723" ph="{...}" />
+            <marker date="1569531553491" expanded="true" signature="3780:4468" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
