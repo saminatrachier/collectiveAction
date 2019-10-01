@@ -517,6 +517,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4278aecd789be6740954676826b97b50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bParticle: {fileID: 0}
 --- !u!212 &1571481390
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -604,7 +605,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1741932678}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d15840d1af627f5459dea70bc99b5e7b, type: 3}
   m_Name: 
@@ -635,6 +636,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4278aecd789be6740954676826b97b50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bParticle: {fileID: 2503530112609234073, guid: cf33f49990fcff14298c0cc0935877f6,
+    type: 3}
 --- !u!1 &2037698181
 GameObject:
   m_ObjectHideFlags: 0

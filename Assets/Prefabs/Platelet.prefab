@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 5065990501849579114}
   - component: {fileID: 8727656607559378293}
   - component: {fileID: 4464815250785450123}
+  - component: {fileID: 2249155271781784713}
   m_Layer: 0
   m_Name: Platelet
-  m_TagString: Untagged
+  m_TagString: Plate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106,3 +107,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   destination: {x: 0, y: 0, z: 0}
+--- !u!114 &2249155271781784713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173221423192853761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4278aecd789be6740954676826b97b50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
