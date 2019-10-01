@@ -16,21 +16,25 @@ public class plateMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 moveDir = destination - transform.position;
-        Debug.DrawLine(transform.position, destination, Color.yellow);
-
-        if (moveDir.magnitude > 1f)
+        if (scoreCounter.moveCode == true)
         {
-            moveDir = moveDir.normalized;
-        }
+            Vector3 moveDir = destination - transform.position;
+            Debug.DrawLine(transform.position, destination, Color.yellow);
 
-        transform.position += moveDir * speed * Time.deltaTime;
+            if (moveDir.magnitude > 1f)
+            {
+                moveDir = moveDir.normalized;
+            }
 
-        transform.forward = Vector3.Lerp(transform.forward, moveDir, speed * Time.deltaTime);
-        if (transform.position == destination)
-        {
-            Destroy(this.gameObject);
-            PlateletMultiply.plateCount-=1; 
+            transform.position += moveDir * speed * Time.deltaTime;
+
+            transform.forward = Vector3.Lerp(transform.forward, moveDir, speed * Time.deltaTime);
+            if (transform.position == destination)
+            {
+                Destroy(this.gameObject);
+                PlateletMultiply.plateCount-=1; 
+            }
         }
+       
     }
 }

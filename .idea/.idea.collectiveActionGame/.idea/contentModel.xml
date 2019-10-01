@@ -17,6 +17,7 @@
           <e p="plateMove.cs" t="Include" />
           <e p="Pop.cs" t="Include" />
           <e p="redMultiply.cs" t="Include" />
+          <e p="scoreCounter.cs" t="Include" />
           <e p="ToolControl.cs" t="Include" />
         </e>
       </e>

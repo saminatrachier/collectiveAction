@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8727656607559378293}
   - component: {fileID: 4464815250785450123}
   - component: {fileID: 2249155271781784713}
+  - component: {fileID: 4053095089757239937}
   m_Layer: 0
   m_Name: Platelet
   m_TagString: Plate
@@ -88,7 +89,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1173221423192853761}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -119,3 +120,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4278aecd789be6740954676826b97b50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &4053095089757239937
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173221423192853761}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
