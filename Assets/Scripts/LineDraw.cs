@@ -8,6 +8,7 @@ public class LineDraw : MonoBehaviour
     private bool isMousePressed;
     public List<Vector3> pointsList;
     private Vector3 mousePos;
+  
 
     //structure for line point (where it starts and stops)
     struct myLine
@@ -22,7 +23,7 @@ public class LineDraw : MonoBehaviour
         line = gameObject.AddComponent<LineRenderer>();
         line.material = new Material (Shader.Find("Legacy Shaders/Particles/Additive"));
         line.SetVertexCount(0);
-        line.SetWidth(.01f,.01f);
+        line.SetWidth(.05f,.05f);
         //draws the color of the tcell line
         line.SetColors(Color.red, Color.red);
         //finds the position of the mouse in the world space
@@ -75,7 +76,7 @@ public class LineDraw : MonoBehaviour
                 Debug.Log(pointsList.Count);
                 line.SetVertexCount(pointsList.Count);
                 line.SetPosition(pointsList.Count - 1, (Vector3) pointsList[pointsList.Count - 1]);
-                if (isLineCollide())
+                if (/*isLineCollide()&&*/isLineCollidedWithOtherObject())
                 {
                     isMousePressed = false;
                     line.SetColors(Color.blue, Color.blue);
@@ -83,8 +84,20 @@ public class LineDraw : MonoBehaviour
             }
         }
     }
+    public bool isLineCollidedWithOtherObject()
+    {
+        RaycastHit hit;
+        Ray ray = Camera.main.ScreenPointToRay(Camera.main.WorldToScreenPoint(pointsList[pointsList.Count-1]));
+        if(Physics.Raycast(ray,out hit))
+        {
+            if(hit.collider)
+                return true;
+         
+        }
+        return false;
+    }
 
-    private bool isLineCollide()
+   private bool isLineCollide()
     {
         if (pointsList.Count < 2)
             return false;
@@ -98,7 +111,7 @@ public class LineDraw : MonoBehaviour
                 lines [i].EndPoint = (Vector3) pointsList [i + 1];
                 
             }
-        }
+        } 
 
         for (int i = 0; i < TotalLines - 1; i++)
         {
@@ -130,4 +143,7 @@ public class LineDraw : MonoBehaviour
                 (Mathf.Max(L1.StartPoint.y, L1.EndPoint.y) >= Mathf.Min(L2.StartPoint.y, L2.EndPoint.y)) &&
                 (Mathf.Max(L2.StartPoint.y, L2.EndPoint.y) >= Mathf.Min(L1.StartPoint.y, L1.EndPoint.y)));
     }
+
+
+    
 }

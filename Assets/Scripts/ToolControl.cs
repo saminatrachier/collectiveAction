@@ -5,30 +5,29 @@ using UnityEngine.SceneManagement;
 
 public class ToolControl : MonoBehaviour
 {
+    private float mZCoord;
+    private Vector3 offset;
     // Start is called before the first frame update
-    void Start()
+
+
+    void onMouseDown()
     {
-        
+        mZCoord = Camera.main.WorldToScreenPoint(gameObject.transform.position).z;
+        offset = gameObject.transform.position + GetMouseAsWorldPoint();
+    
     }
 
-    // Update is called once per frame
-    void Update()
+    private Vector3 GetMouseAsWorldPoint()
     {
-        
+        Destroy(this.gameObject);
+        Multiply.bacteriaCount-=1; 
+        Debug.Log("SEND HALP");
+        Vector3 mousePoint = Input.mousePosition;
+        mousePoint.z = mZCoord;
+        return Camera.main.ScreenToWorldPoint(mousePoint);
     }
-
-    void OnMouseDown()
+    void OnMouseDrag()
     {
-        /*if (gameObject.name == "eraser")
-        {
-            LineDraw.toolType = "scalpel";
-            Debug.Log("scalpel clicked");
-        }
-
-        if (gameObject.name == "draw")
-        {
-            LineDraw.toolType = "tcell";
-            Debug.Log("tcell clicked");
-        } */
+        transform.position = GetMouseAsWorldPoint() + offset;
     }
 }

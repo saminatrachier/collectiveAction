@@ -7,8 +7,16 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="bacteriaMove.cs" t="Include" />
+          <e p="bloodMove.cs" t="Include" />
+          <e p="cameraRotate.cs" t="Include" />
           <e p="Erase.cs" t="Include" />
           <e p="LineDraw.cs" t="Include" />
+          <e p="Multiply.cs" t="Include" />
+          <e p="PlateletMultiply.cs" t="Include" />
+          <e p="plateMove.cs" t="Include" />
+          <e p="Pop.cs" t="Include" />
+          <e p="redMultiply.cs" t="Include" />
           <e p="ToolControl.cs" t="Include" />
         </e>
       </e>
